@@ -1,3 +1,10 @@
-Stanford Blog x.x-x.x, xxxx-xx-xx
+Stanford Blog 7.x-1.0-alpha2, 2012-07-13
 ------------------------------------
+by meganem: Added Managed Posts view page
+by meganem: Cleaned up Blog posts by user view
+by meganem: Edited Blog actions menu
+by hyperboy: Added stanford_blog.css
 
+Stanford Blog 7.x-1.0-alpha1, 2012-07-12
+------------------------------------
+by jbickar: Initial release
