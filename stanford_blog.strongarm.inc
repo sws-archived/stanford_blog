@@ -97,13 +97,6 @@ function stanford_blog_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'date_format_medium';
-  $strongarm->value = 'F j, Y - g:i a';
-  $export['date_format_medium'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_comment__comment_node_stanford_blogpost';
   $strongarm->value = array();
   $export['field_bundle_settings_comment__comment_node_stanford_blogpost'] = $strongarm;
@@ -188,13 +181,6 @@ function stanford_blog_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_blog_pattern';
-  $strongarm->value = 'blogs/[user:name]';
-  $export['pathauto_blog_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_stanford_blogpost_pattern';
   $strongarm->value = 'blog/[node:title]';
   $export['pathauto_node_stanford_blogpost_pattern'] = $strongarm;
@@ -212,13 +198,6 @@ function stanford_blog_strongarm() {
   $strongarm->name = 'pathauto_taxonomy_term_tags_pattern';
   $strongarm->value = '';
   $export['pathauto_taxonomy_term_tags_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'save_continue_blog_post';
-  $strongarm->value = 'Save and add fields';
-  $export['save_continue_blog_post'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

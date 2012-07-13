@@ -1,0 +1,39 @@
+/* Stanford Blog Contributors */
+.view-stanford-blogcontributors {line-height: 1.5em;}
+.view-stanford-blogcontributors .views-row {margin: 0 0 1em 0; border-top:1px solid #F2F1EB; padding: 15px 0 0 0;}
+.view-stanford-blogcontributors .views-row:first-child {border-top: 0px; padding: 0px;}
+.view-stanford-blogcontributors .views-field {margin: 0 0 0.5em 0;}
+.view-stanford-blogcontributors .views-field-fullname {font-size:14px;}
+.view-stanford-blogcontributors .views-field-field-s-user-position {font-style:italic;}
+.view-stanford-blogcontributors .views-field-picture {float: left;}
+.view-stanford-blogcontributors .views-field-picture a {border: none;}
+.view-stanford-blogcontributors .views-field-picture img {display: block; margin: 0 15px 1em 0;}
+
+/* Stanford Blog Contributor User Profile Page */
+.page-user .profile {line-height:1.5em;}
+.page-user .profile .user-picture {float: left;}
+.page-user .group-user-fullname {font-size:14px;}
+.page-user .group-user-fullname div.field-item, .page-user .group-user-fullname div.field, .page-user .group-user-fullname div.field-items {display:inline;}
+.page-user .group-user-fullname div.field-item {margin-right:0.3em;}
+.page-user .field-name-field-s-user-short-bio {margin: 0.5em 0;}
+.page-user .field-name-field-s-user-position {font-style:italic;}
+#block-views-stanford-blogposts-user-block-1 {border-top:2px solid #E9E6DF; margin-top:30px;}
+
+/* Stanford Blog Posts Styles*/
+.view-stanford-blogposts .views-row {border-bottom: 2px solid #e9e6df; margin-top: 30px; padding-bottom: 30px;}
+.view-stanford-blogposts .views-field-created img {vertical-align: middle;}
+.view-stanford-blogposts .views-field-body {margin: 1em 0;}
+.view-stanford-blogposts .views-field-field-s-blogpost-categories .field-content, .views-field-field-s-blogpost-tags .field-content {display:inline;}
+.view-stanford-blogposts .views-field-field-s-blogpost-categories, .views-field-field-s-blogpost-tags, .views-field-created {color:#8a887d;}
+
+/* Stanford Blog Post Node styles */
+.node-type-stanford-blogpost #comments {border-top:2px solid #E9E6DF;}
+/* override default node label styles: */
+.node-type-stanford-blogpost .field .field-label {font-size:1em; font-weight: normal; letter-spacing: normal; margin: 0; padding-bottom: 0;}
+.node-type-stanford-blogpost .field-name-field-s-blogpost-tags .field-item, .node-type-stanford-blogpost .field-name-field-s-blogpost-categories .field-item {display:inline; margin-right:0.3em;}
+.node-type-stanford-blogpost div.content {margin:30px 0px;}
+.node-type-stanford-blogpost div.content .field-name-body {margin-bottom:30px;}
+.node-type-stanford-blogpost .user-picture, .node-type-stanford-blogpost .submitted, .node-type-stanford-blogpost .field-name-field-s-blogpost-categories, .node-type-stanford-blogpost .field-name-field-s-blogpost-tags {color: #8A887D;}
+
+/* Stanford Blog Actions Menu */
+#block-views-stanford-blogactions-menu-block {background-color:#f3efd8;}

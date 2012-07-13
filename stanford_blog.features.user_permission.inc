@@ -32,6 +32,16 @@ function stanford_blog_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: access comments.
+  $permissions['access comments'] = array(
+    'name' => 'access comments',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'authenticated user',
+    ),
+    'module' => 'comment',
+  );
+
   // Exported permission: access content.
   $permissions['access content'] = array(
     'name' => 'access content',
@@ -83,6 +93,25 @@ function stanford_blog_user_default_permissions() {
       1 => 'blog administrator',
     ),
     'module' => 'comment',
+  );
+
+  // Exported permission: administer css injection.
+  $permissions['administer css injection'] = array(
+    'name' => 'administer css injection',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'blog administrator',
+    ),
+    'module' => 'css_injector',
+  );
+
+  // Exported permission: administer features.
+  $permissions['administer features'] = array(
+    'name' => 'administer features',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'features',
   );
 
   // Exported permission: administer image styles.
@@ -168,7 +197,7 @@ function stanford_blog_user_default_permissions() {
   );
 
   // Exported permission: delete terms in 2.
-/*  $permissions['delete terms in 2'] = array(
+  $permissions['delete terms in 2'] = array(
     'name' => 'delete terms in 2',
     'roles' => array(
       0 => 'administrator',
@@ -185,7 +214,7 @@ function stanford_blog_user_default_permissions() {
       1 => 'blog administrator',
     ),
     'module' => 'taxonomy',
-  ); */
+  );
 
   // Exported permission: display drupal links.
   $permissions['display drupal links'] = array(
@@ -207,6 +236,18 @@ function stanford_blog_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: edit own comments.
+  $permissions['edit own comments'] = array(
+    'name' => 'edit own comments',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'authenticated user',
+      2 => 'blog administrator',
+      3 => 'blog contributor',
+    ),
+    'module' => 'comment',
+  );
+
   // Exported permission: edit own stanford_blogpost content.
   $permissions['edit own stanford_blogpost content'] = array(
     'name' => 'edit own stanford_blogpost content',
@@ -219,7 +260,7 @@ function stanford_blog_user_default_permissions() {
   );
 
   // Exported permission: edit terms in 2.
-/*  $permissions['edit terms in 2'] = array(
+  $permissions['edit terms in 2'] = array(
     'name' => 'edit terms in 2',
     'roles' => array(
       0 => 'administrator',
@@ -236,7 +277,7 @@ function stanford_blog_user_default_permissions() {
       1 => 'blog administrator',
     ),
     'module' => 'taxonomy',
-  ); */
+  );
 
   // Exported permission: flush caches.
   $permissions['flush caches'] = array(
@@ -246,6 +287,27 @@ function stanford_blog_user_default_permissions() {
       1 => 'blog administrator',
     ),
     'module' => 'admin_menu',
+  );
+
+  // Exported permission: manage features.
+  $permissions['manage features'] = array(
+    'name' => 'manage features',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'features',
+  );
+
+  // Exported permission: post comments.
+  $permissions['post comments'] = array(
+    'name' => 'post comments',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'authenticated user',
+      2 => 'blog administrator',
+      3 => 'blog contributor',
+    ),
+    'module' => 'comment',
   );
 
   // Exported permission: revert revisions.
@@ -281,6 +343,17 @@ function stanford_blog_user_default_permissions() {
     'module' => 'comment',
   );
 
+  // Exported permission: use text format filtered_html.
+  $permissions['use text format filtered_html'] = array(
+    'name' => 'use text format filtered_html',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'anonymous user',
+      2 => 'authenticated user',
+    ),
+    'module' => 'filter',
+  );
+
   // Exported permission: use text format full_html.
   $permissions['use text format full_html'] = array(
     'name' => 'use text format full_html',
@@ -289,6 +362,17 @@ function stanford_blog_user_default_permissions() {
       1 => 'blog contributor',
     ),
     'module' => 'filter',
+  );
+
+  // Exported permission: view own unpublished content.
+  $permissions['view own unpublished content'] = array(
+    'name' => 'view own unpublished content',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'blog administrator',
+      2 => 'blog contributor',
+    ),
+    'module' => 'node',
   );
 
   // Exported permission: view revisions.
