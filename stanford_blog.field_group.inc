@@ -18,25 +18,15 @@ function stanford_blog_field_group_info() {
   $field_group->entity_type = 'user';
   $field_group->bundle = 'user';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_user_profile_wrapper';
+  $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Full Name',
     'weight' => '1',
-    'children' => array(
-      0 => 'field_s_user_first_name',
-      1 => 'field_s_user_last_name',
-    ),
-    'format_type' => 'div',
+    'children' => array(),
+    'format_type' => 'hidden',
     'format_settings' => array(
-      'formatter' => 'collapsible',
-      'instance_settings' => array(
-        'description' => '',
-        'show_label' => 1,
-        'label_element' => 'h3',
-        'effect' => 'none',
-        'speed' => 'fast',
-        'classes' => '',
-      ),
+      'formatter' => '',
+      'instance_settings' => array(),
     ),
   );
   $export['group_user_fullname|user|user|default'] = $field_group;
@@ -57,7 +47,7 @@ function stanford_blog_field_group_info() {
       0 => 'field_s_user_contact',
       1 => 'field_s_user_position',
       2 => 'field_s_user_short_bio',
-      3 => 'group_user_fullname',
+      3 => 'field_s_user_profile_photo',
     ),
     'format_type' => 'div',
     'format_settings' => array(

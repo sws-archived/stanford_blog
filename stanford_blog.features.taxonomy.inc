@@ -13,7 +13,7 @@ function stanford_blog_taxonomy_default_vocabularies() {
       'name' => 'Blog Categories',
       'machine_name' => 'blog_categories',
       'description' => 'Blog Categories',
-      'hierarchy' => '0',
+      'hierarchy' => '1',
       'module' => 'taxonomy',
       'weight' => '0',
       'rdf_mapping' => array(
