@@ -13,13 +13,13 @@ function stanford_blog_user_default_roles() {
   // Exported role: blog administrator.
   $roles['blog administrator'] = array(
     'name' => 'blog administrator',
-    'weight' => '4',
+    'weight' => 4,
   );
 
   // Exported role: blog contributor.
   $roles['blog contributor'] = array(
     'name' => 'blog contributor',
-    'weight' => '3',
+    'weight' => 3,
   );
 
   return $roles;
